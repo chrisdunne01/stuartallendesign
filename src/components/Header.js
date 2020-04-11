@@ -17,16 +17,17 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <button
+          <button class="test123"
             onClick={() => {
               props.onOpenArticle('about')
             }}
+
           >
             About
           </button>
         </li>
         <li>
-          <button
+          <button class="test123"
             onClick={() => {
               props.onOpenArticle('work')
             }}
@@ -37,7 +38,7 @@ const Header = props => (
         <li>
         </li>
         <li>
-          <button
+          <button class="test123"
             onClick={() => {
               props.onOpenArticle('contact')
             }}
@@ -47,7 +48,7 @@ const Header = props => (
         </li>
       </ul>
     </nav>
-      <div className="test">
+      <div className="">
           <ul className="icons">
             <li>
               <a href="https://www.linkedin.com/in/stuart-allen-a35b2219a/" className="icon fa-linkedin">
