@@ -54,6 +54,16 @@ const Header = props => (
         </li>
       </ul>
     </nav>
+      <div className="test">
+          <ul className="icons">
+            <li>
+              <a href="https://www.linkedin.com/in/stuart-allen-a35b2219a/" className="icon fa-linkedin">
+                <span className="label">Linkedin</span>
+              </a>
+            </li>
+          </ul>
+      </div>
+
   </header>
 )
 
