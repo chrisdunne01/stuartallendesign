@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/bg3.png'
-import pic02 from '../images/pic02.jpg'
+import pic02 from '../images/cv.jpg'
 import pic03 from '../images/pic03.jpg'
-import casting from '../images/projects/casting.png'
+import casting from '../images/projects/Portfolio.jpg'
 import chair from '../images/projects/chair.png'
 import wardrobe from '../images/projects/wardrobe.png'
 import buildbay from '../images/projects/buildbay.png'
@@ -50,6 +50,9 @@ class Main extends React.Component {
             my skillset and gain knowledge from
             others along the way.
           </p>
+              <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
           {close}
         </article>
 
