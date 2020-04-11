@@ -3,6 +3,12 @@ import React from 'react'
 import pic01 from '../images/bg3.png'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import casting from '../images/projects/casting.png'
+import chair from '../images/projects/chair.png'
+import wardrobe from '../images/projects/wardrobe.png'
+import buildbay from '../images/projects/buildbay.png'
+import desk from '../images/projects/desk.png'
+import lampshade from '../images/projects/lampshade.png'
 
 class Main extends React.Component {
   render() {
@@ -21,14 +27,14 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
-        <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          <article
+          id="about"
+          className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">About</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -54,50 +60,58 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
+          <h2 className="major">Portfolio</h2>
+         <span className="image main">
+            <img src={casting} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Rory McIlroy had inspired me, as he is a famous and international
+            sportsman from Northern Ireland. I finally decided on making a door handle,
+            which incorporated the golf balls into this design. As I design the door handle
+            and created it, I ensured that it was going to have a strong connection with golf.
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
-          {close}
-        </article>
 
-        <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={chair} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            The reason I was inspired to design and build a rocking chair was because I liked
+            the thought of doing a traditional piece of furniture. My main goal was to modernise
+            the method of building a rocking chair by using the process of CNC. As a result, I would
+            be able to mass produce the chair.
+          </p>
+
+          <span className="image main">
+            <img src={buildbay} alt="" />
+          </span>
+          <p>
+            The strong, sturdy, compact workbench
+          </p>
+
+          <span className="image main">
+            <img src={lampshade} alt="" />
+          </span>
+          <p>
+            The lampshade project brief told us that the shade had to be made out of polypropylene plastic
+            and it had to have a manual included so the lamp could be assembled.
+          </p>
+
+          <span className="image main">
+            <img src={desk} alt="" />
+          </span>
+          <p>
+            A concept design of a desk designed on solidworks
+          </p>
+
+          <span className="image main">
+            <img src={wardrobe} alt="" />
+          </span>
+          <p>
+            I made the wardrobe for my Leaving Cert project which was made for my room which has a
+            sloped roof.
           </p>
           {close}
-        </article>
+          </article>
 
         <article
           id="contact"
