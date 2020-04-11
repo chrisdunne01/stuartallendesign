@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>Dimension</h1>
         <p>
-          A fully responsive site template designed by{' '}
+          A fully 1responsive site template designed by{' '}
           <a href="https://html5up.net">HTML5 UP</a> and released
           <br />
           for free under the{' '}
