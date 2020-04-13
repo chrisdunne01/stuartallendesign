@@ -39,7 +39,7 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            I am very committed and hardworking
+            I am a very committed and hardworking
             final year student in Product Design.
             Through a range of professional experiences, I have developed my confidence in the working environment
             and believe I am an effective communicator. I relish the challenge of a
