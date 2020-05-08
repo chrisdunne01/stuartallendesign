@@ -2,13 +2,22 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/bg3.png'
 import pic02 from '../images/cv.jpg'
-import pic03 from '../images/pic03.jpg'
-import casting from '../images/projects/Portfolio.jpg'
-import chair from '../images/projects/chair.png'
-import wardrobe from '../images/projects/wardrobe.png'
+// import pic03 from '../images/pic03.jpg'
 import buildbay from '../images/projects/buildbay.png'
-import desk from '../images/projects/desk.png'
-import lampshade from '../images/projects/lampshade.png'
+import buildbay1 from '../images/projects/buildbay1.png'
+import buildbay2 from '../images/projects/buildbay2.png'
+import buildbay3 from '../images/projects/buildbay3.png'
+import chair from '../images/projects/chair.png'
+import chair_manufacturing from '../images/projects/chair_manufacturing.png'
+import chair_manufacturing1 from '../images/projects/chair_manufacturing1.png'
+import DCG from '../images/projects/DCG.png'
+import golfer from '../images/projects/golfer.png'
+import golfer_manufacturing from '../images/projects/golfer_manufacturing.png'
+import golfer_solidworks from '../images/projects/golfer_solidworks.png'
+import jcb_manufacturing from '../images/projects/jcb_manufacturing.png'
+import jcp from '../images/projects/jcp.png'
+import wardrobe from '../images/projects/wardrobe.png'
+import woodturning from '../images/projects/woodturning.png'
 
 class Main extends React.Component {
   render() {
@@ -44,7 +53,6 @@ class Main extends React.Component {
             Through a range of professional experiences, I have developed my confidence in the working environment
             and believe I am an effective communicator. I relish the challenge of a
             difficult task being presented to me.
-            others along the way.
             I will always give my all to complete it to the best of my abilities,
             welcoming opportunities to enhance
             my skillset and gain knowledge from
@@ -65,7 +73,10 @@ class Main extends React.Component {
         >
           <h2 className="major">Portfolio</h2>
          <span className="image main">
-            <img src={casting} alt="" />
+            <img src={golfer} alt="" />
+             {/*<br> </br>*/}
+            <img src={golfer_manufacturing} alt="" />
+            <img src={golfer_solidworks} alt="" />
           </span>
           <p>
             Rory McIlroy had inspired me, as he is a famous and international
@@ -76,6 +87,8 @@ class Main extends React.Component {
 
           <span className="image main">
             <img src={chair} alt="" />
+            <img src={chair_manufacturing} alt="" />
+            <img src={chair_manufacturing1} alt="" />
           </span>
           <p>
             The reason I was inspired to design and build a rocking chair was because I liked
@@ -86,24 +99,27 @@ class Main extends React.Component {
 
           <span className="image main">
             <img src={buildbay} alt="" />
+            <img src={buildbay1} alt="" />
+            <img src={buildbay2} alt="" />
+            <img src={buildbay3} alt="" />
           </span>
           <p>
             The strong, sturdy, compact workbench
           </p>
 
           <span className="image main">
-            <img src={lampshade} alt="" />
+            <img src={DCG} alt="" />
           </span>
           <p>
-            The lampshade project brief told us that the shade had to be made out of polypropylene plastic
-            and it had to have a manual included so the lamp could be assembled.
+            "STUARTS GAY"
           </p>
 
           <span className="image main">
-            <img src={desk} alt="" />
+            <img src={jcp} alt="" />
+            <img src={jcb_manufacturing} alt="" />
           </span>
           <p>
-            A concept design of a desk designed on solidworks
+            "Stuart likes c*ck"
           </p>
 
           <span className="image main">
@@ -113,6 +129,15 @@ class Main extends React.Component {
             I made the wardrobe for my Leaving Cert project which was made for my room which has a
             sloped roof.
           </p>
+
+          <span className="image main">
+            <img src={woodturning} alt="" />
+          </span>
+          <p>
+            I made the wardrobe for my Leaving Cert project which was made for my room which has a
+            sloped roof.
+          </p>
+
           {close}
           </article>
 
