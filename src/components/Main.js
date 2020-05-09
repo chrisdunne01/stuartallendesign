@@ -74,69 +74,65 @@ class Main extends React.Component {
           <h2 className="major">Portfolio</h2>
          <span className="image main">
             <img src={golfer} alt="" />
-             {/*<br> </br>*/}
+             </span>
+
+          <span className="image main">
             <img src={golfer_manufacturing} alt="" />
+            </span>
+
+          <span className="image main">
             <img src={golfer_solidworks} alt="" />
           </span>
-          <p>
-            Rory McIlroy had inspired me, as he is a famous and international
-            sportsman from Northern Ireland. I finally decided on making a door handle,
-            which incorporated the golf balls into this design. As I design the door handle
-            and created it, I ensured that it was going to have a strong connection with golf.
-          </p>
 
           <span className="image main">
             <img src={chair} alt="" />
+            </span>
+
+          <span className="image main">
             <img src={chair_manufacturing} alt="" />
+           </span>
+
+          <span className="image main">
             <img src={chair_manufacturing1} alt="" />
           </span>
-          <p>
-            The reason I was inspired to design and build a rocking chair was because I liked
-            the thought of doing a traditional piece of furniture. My main goal was to modernise
-            the method of building a rocking chair by using the process of CNC. As a result, I would
-            be able to mass produce the chair.
-          </p>
 
           <span className="image main">
             <img src={buildbay} alt="" />
+           </span>
+
+          <span className="image main">
             <img src={buildbay1} alt="" />
+            </span>
+
+          <span className="image main">
             <img src={buildbay2} alt="" />
+           </span>
+
+          <span className="image main">
             <img src={buildbay3} alt="" />
           </span>
-          <p>
-            The strong, sturdy, compact workbench
-          </p>
+
 
           <span className="image main">
             <img src={DCG} alt="" />
           </span>
-          <p>
-            "STUARTS GAY"
-          </p>
 
           <span className="image main">
             <img src={jcp} alt="" />
+          </span>
+
+         <span className="image main">
             <img src={jcb_manufacturing} alt="" />
           </span>
-          <p>
-            "Stuart likes c*ck"
-          </p>
+
 
           <span className="image main">
             <img src={wardrobe} alt="" />
           </span>
-          <p>
-            I made the wardrobe for my Leaving Cert project which was made for my room which has a
-            sloped roof.
-          </p>
 
           <span className="image main">
             <img src={woodturning} alt="" />
           </span>
-          <p>
-            I made the wardrobe for my Leaving Cert project which was made for my room which has a
-            sloped roof.
-          </p>
 
           {close}
           </article>
