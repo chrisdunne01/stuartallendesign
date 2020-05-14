@@ -18,6 +18,12 @@ import jcb_manufacturing from '../images/projects/jcb_manufacturing.png'
 import jcp from '../images/projects/jcp.png'
 import wardrobe from '../images/projects/wardrobe.png'
 import woodturning from '../images/projects/woodturning.png'
+import s1 from '../images/projects/Slide1.png'
+import s2 from '../images/projects/Slide2.png'
+import s3 from '../images/projects/Slide3.png'
+import s4 from '../images/projects/Slide4.png'
+import s5 from '../images/projects/Slide5.png'
+import s6 from '../images/projects/Slide6.png'
 
 class Main extends React.Component {
   render() {
@@ -72,13 +78,38 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Portfolio</h2>
-         <span className="image main">
+
+            <span className="image main">
+            <img src={s1} alt="" />
+         </span>
+
+            <span className="image main">
+            <img src={s2} alt="" />
+         </span>
+
+            <span className="image main">
+            <img src={s3} alt="" />
+         </span>
+
+            <span className="image main">
+            <img src={s4} alt="" />
+         </span>
+
+            <span className="image main">
+            <img src={s5} alt="" />
+         </span>
+
+            <span className="image main">
+            <img src={s6} alt="" />
+         </span>
+
+            <span className="image main">
             <img src={golfer} alt="" />
-             </span>
+         </span>
 
           <span className="image main">
             <img src={golfer_manufacturing} alt="" />
-            </span>
+          </span>
 
           <span className="image main">
             <img src={golfer_solidworks} alt="" />
@@ -147,33 +178,20 @@ class Main extends React.Component {
 
           <h2 className="major">Contact</h2>
           <p>
-          Please feel free to contact me if you have any questions, through the links below
+          Please don't hesitate to contact me with any enquiries.
          </p>
           <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
             <li>
               <a
                 href="mailto:stu555@live.co.uk"
                 className="icon fa-envelope"
               >
                 <span className="label">Mail</span>
+              </a>
+            </li>
+              <li>
+              <a href="https://www.linkedin.com/in/stuart-allen-a35b2219a/" className="icon fa-linkedin">
+                <span className="label">Linkedin</span>
               </a>
             </li>
           </ul>
